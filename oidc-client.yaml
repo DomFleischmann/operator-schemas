@@ -1,0 +1,17 @@
+v1:
+  provides:
+    type: object
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      redirectURIs:
+        type: array
+        items:
+          type: string
+      secret:
+        type: string
+    required:
+      - service-name
+      - service-port
